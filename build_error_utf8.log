@@ -1,0 +1,71 @@
+﻿cargo : [2026-02-21T10:
+29:00.159317200Z ERROR 
+cargo_build_sbf] 
+Failed to obtain 
+package metadata: 
+`cargo metadata` 
+exited with an error: 
+warning: virtual 
+workspace defaulting 
+to `resolver = "1"` 
+despite one or more 
+workspace members 
+being on edition 2021 
+which implies 
+`resolver = "2"`
+At line:1 char:69
++ ... $env:HOME = 
+$env:USERPROFILE ; 
+cargo build-sbf > 
+build_error.log 2>&1
++                      
+              ~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ([2026-02-21T1   
+ 0:...resolver = "2    
+"`:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+    note: to keep the 
+current resolver, 
+specify 
+`workspace.resolver = 
+"1"` in the workspace 
+root's manifest
+    note: to use the 
+edition 2021 resolver, 
+specify 
+`workspace.resolver = 
+"2"` in the workspace 
+root's manifest
+    note: for more 
+details see https://doc
+.rust-lang.org/cargo/re
+ference/resolver.html#r
+esolver-versions
+        Updating 
+crates.io index
+    error: failed to 
+select a version for 
+the requirement 
+`ephemeral-rollups-sdk 
+= "^0.1.0"`
+    candidate versions 
+found which didn't 
+match: 0.8.5, 0.8.4, 
+0.8.3, ...
+    location searched: 
+crates.io index
+    required by 
+package 
+`spectre_program 
+v0.1.0 (C:\Users\DELL\s
+ol-blitz\spectre\progra
+ms\spectre_program)`
+    

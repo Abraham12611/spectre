@@ -1,0 +1,35 @@
+# Rust / Anchor build
+target/
+test-target/
+.anchor/
+**/*.so
+**/*.pdb
+**/*.exe
+**/*.rlib
+**/*.rmeta
+**/*.d
+
+# Node
+node_modules/
+dashboard/node_modules/
+dashboard/.next/
+
+# Env & keys
+.env
+.env.local
+.env.production
+*-keypair.json
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+test-ledger/
+push_to_github.sh
+push_continue.sh
+
+# Duplicates
+spectre_program/
+tree.txt
