@@ -4,6 +4,9 @@
 
 [![Deployed on Devnet](https://img.shields.io/badge/Solana-Devnet-blue)](https://solscan.io/account/3xAmgLtbu1SZdDrp85vXiW1JMF9iMcys1DsQMhWQg3gb?cluster=devnet)
 
+🌐 **Live App**: [spectre-inky.vercel.app](https://spectre-inky.vercel.app/)
+📹 **Demo Video**: [Watch on Google Drive](https://drive.google.com/drive/folders/1c6dzoCTmlaRDTxZiIWorL4SgBUnoGKtU?usp=sharing)
+
 ---
 
 ## 🎯 Problem
@@ -79,7 +82,8 @@ The agent uses the **same wallet keypair** it already has. No complex integratio
 | **Program ID** | [`3xAmgLtbu1SZdDrp85vXiW1JMF9iMcys1DsQMhWQg3gb`](https://solscan.io/account/3xAmgLtbu1SZdDrp85vXiW1JMF9iMcys1DsQMhWQg3gb?cluster=devnet) |
 | **IDL Account** | `F7tZXMeLBXM4kqkfPKSWszcKYatKry4xAjuinMxQxxjy` |
 | **ER RPC** | `https://devnet.magicblock.app` |
-| **Dashboard** | `localhost:3000` (Next.js) |
+| **Live App** | [spectre-inky.vercel.app](https://spectre-inky.vercel.app/) |
+| **Demo Video** | [Watch Demo](https://drive.google.com/drive/folders/1c6dzoCTmlaRDTxZiIWorL4SgBUnoGKtU?usp=sharing) |
 
 ### Test Results — 5/5 Passing
 
